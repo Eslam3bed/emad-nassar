@@ -1,0 +1,35 @@
+@import url(../fonts/index.css);
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand','Open Sans',"Roboto","Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eee;
+    background-attachment: fixed;
+}
+
+.page-content {
+    color: #1e0a36bd;
+    /* width: 70%; */
+}
+
+.content-box {
+    margin: 10px 0px;
+    padding:30px;
+    background: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.align-center{
+    text-align: center;
+}
